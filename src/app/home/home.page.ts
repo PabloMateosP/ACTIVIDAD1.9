@@ -43,7 +43,7 @@ export class HomePage {
 
   reinciarPartida() {
     this.altura = 0;
-    this.txtMensaje = "";
+    this.peso = 0;
     this.txtMensaje = "";
 
   }
