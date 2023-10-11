@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   peso: number = 0;
-  altura: number = 0;
+  altura: number = 0 ;
   txtMensaje: string = "";
 
   constructor() {
@@ -17,7 +17,7 @@ export class HomePage {
   }
 
   consultarIMC() {
-    console.log("altura= " + this.altura);
+    
     if (this.peso / Math.pow(this.altura, 2) <= 18.5) {
       console.log("BAJO PESO, IMC <= 18.5");
       this.txtMensaje = "BAJO PESO, IMC <= 18.5";
