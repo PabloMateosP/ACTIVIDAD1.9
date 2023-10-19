@@ -44,7 +44,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
   ion-content {
     --background: rgb(40, 113, 240);
   }
