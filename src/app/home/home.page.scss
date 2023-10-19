@@ -1,3 +1,5 @@
+
+
 #container {
   text-align: center;
 
@@ -6,9 +8,8 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  
-}
 
+}
 
 #container strong {
   font-size: 30px;
@@ -29,4 +30,22 @@
 
 #container h3 {
   font-family: Consolas;
+}
+
+@media only screen and (max-width: 900px) {
+  ion-buttom {
+    --background: rgb(135, 219, 118);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  ion-content {
+    --background: rgba(240,40,90);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  ion-content {
+    --background: rgb(40, 113, 240);
+  }
 }
