@@ -49,3 +49,15 @@
     --background: rgb(40, 113, 240);
   }
 }
+
+@media (orientation: landscape) {
+  .elemento-1 {
+    display: none; /* Oculta elemento-1 en orientación paisaje */
+  }
+}
+
+@media (orientation: portrait) {
+  .elemento-2 {
+    display: none; /* Oculta elemento-2 en orientación retrato */
+  }
+}
