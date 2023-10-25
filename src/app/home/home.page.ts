@@ -11,12 +11,14 @@ export class HomePage {
   peso: number = 0;
   altura: number = 0 ;
   txtMensaje: string = "";
+  txtSegundoMensaje: string = "";
 
   constructor() {
     this.consultarIMC();
   }
 
   consultarIMC() {
+    this.txtSegundoMensaje = "Pantalla en vertical, no se verá el valor";
     
     if (this.peso / Math.pow(this.altura, 2) <= 18.5) {
       console.log("BAJO PESO, IMC <= 18.5");
@@ -37,6 +39,7 @@ export class HomePage {
       console.log("OBESIDAD TIPO 3, IMC por encima de 40");
       this.txtMensaje = "OBESIDAD TIPO 3, IMC por encima de 40";
     }
+
 
   }
 
